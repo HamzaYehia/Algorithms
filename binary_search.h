@@ -3,7 +3,7 @@ int binarySearch(int* nums, int numsSize, int target) {
     int left = 0, right = numsSize - 1;
     while (left <= right)
     {
-        int mid = 1 + (right - left) / 2;
+        int mid = (left + right) / 2;
 
         if (nums[mid] == target) return mid;
 
