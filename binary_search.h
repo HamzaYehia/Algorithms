@@ -1,10 +1,9 @@
-int binarySearch(int* nums, int numsSize, int target) {
+int binary_search(int* nums, int numsSize, int target) {
     if (nums == NULL) return -1;
 
     int left = 0, right = numsSize - 1;
 
-    while (left <= right)
-    {
+    while (left <= right) {
         int mid = (left + right) / 2;
 
         if (nums[mid] == target) return mid;
