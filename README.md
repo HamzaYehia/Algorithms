@@ -1,1 +1,1 @@
-# My implementation of common Algorithms in C language.
+# My implementation of common Algorithms in C/C++.
